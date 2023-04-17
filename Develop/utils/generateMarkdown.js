@@ -1,4 +1,6 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+const licenseArr = ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"];
+
+//TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {}
 

@@ -22,10 +22,7 @@ const questions = [
     type: "input",
     message:"What are the steps required to install your project?",
     },
-    {name: "usage",
-    type: "input",
-    message:"Provide instructions and examples for use.",
-    },
+    
     {name: "contributing",
     type: "input",
     message:"If you want other developers to contribute to your project, what are the guidelines?",
@@ -42,15 +39,33 @@ const questions = [
     type: "input",
     message:"What is your email address?",
     },
-    
-    
+
 ];
 
+    
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.appendFile(`${fileName}.md`, data,
+    (err => err ? console.error(err): console.log(`${fileName}.md has been generated.`))
+    )
+}
+
+        
 
 // TODO: Create a function to initialize app
-function init() {}
+async function init() {
+    try {
+        const answers = await inquirer.prompt(questions);
+        const markdown = generateMarkdown(answers);
+        writeToFile("README", markdown);
+    } catch (error) {
+        console.log(error);
+    }
+   
+    
+}
 
 // Function call to initialize app
 init();
