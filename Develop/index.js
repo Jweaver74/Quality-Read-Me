@@ -4,7 +4,8 @@ const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = [
+function userInput() {
+    return inquirer.prompt([
     {name: "license",
     type: "list",
     message: "select the kind of license you want to use for your project",
@@ -14,6 +15,10 @@ const questions = [
     type: "input",
     message:"What is the title of your project?",
     },
+    {name: "usage",
+    type: "input",
+    message:" What is the link to your deployed site?",
+    },
     {name: "description",
     type: "input",
     message:"What does you project do",
@@ -22,14 +27,17 @@ const questions = [
     type: "input",
     message:"What are the steps required to install your project?",
     },
-    
-    {name: "contributing",
-    type: "input",
-    message:"If you want other developers to contribute to your project, what are the guidelines?",
-    },
     {name: "tests",
     type: "input",
     message:"Provide examples on how to run tests.",
+    },
+    {name: "contributing",
+    type: "input",
+    message:"Who are the contributors of this project?",
+    },
+    {name: "challenge",
+    type: "input",
+    message:"What were some of your challenges?",
     },
     {name: "github",
     type: "input",
@@ -40,7 +48,8 @@ const questions = [
     message:"What is your email address?",
     },
 
-];
+    ]);
+}
 
     
 
@@ -56,14 +65,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 async function init() {
-    try {
-        const answers = await inquirer.prompt(questions);
-        const markdown = generateMarkdown(answers);
-        writeToFile("README", markdown);
-    } catch (error) {
-        console.log(error);
-    }
-   
+    let answers = await userInput();
+    writeToFile((answers.fileName),(generateMarkdown(answers)));
     
 }
 
