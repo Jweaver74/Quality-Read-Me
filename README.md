@@ -1,63 +1,74 @@
-Quality Read Me
-Badges
-License: MIT
+# Quality Read Me
+  ## Badges
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Table of Contents
-*license
+  ## Table of Contents
+  *[license](#license)
 
-*title
+  *[title](#title)
 
-*usage
+  *[usage](#usage)
 
-*livelink
+  *[livelink](#livelink)
 
-*description
+  *[description](#description)
 
-*installation
+  *[installation](#installation)
 
-*tests
+  *[tests](#tests)
 
-*contributing
+  *[contributing](#contributing)
 
-*challenge
+  *[challenge](#challenge)
 
-*github
+  *[github](#github)
 
-*email
+  *[email](#email)
 
-License
-This project is licensed under the MIT license. https://opensource.org/licenses/MIT
+  ## License
+  This project is licensed under the MIT license.
+  https://opensource.org/licenses/MIT
 
-Title
-Quality Read Me
 
-Usage
-To produce a uniform read me file for projects.
+  ## Title
+  Quality Read Me
 
-Live Link
-https://drive.google.com/file/d/1_EOdw6tEK-_c2F7MnzPFMrPY1CC7RETf/view
 
-Description
-Ask a series of questions to produce a uniform readme file for the users projects.
+  ## Usage
+  To produce a uniform read me file for projects.
 
-Installation
-Clone the repo to the users repo. Open the terminal within the Develop folder and run the commend node index.js.
+  ## Live Link
+  https://drive.google.com/file/d/1_EOdw6tEK-_c2F7MnzPFMrPY1CC7RETf/view
 
-Tests
-Run node index.js and test the functions.
 
-Contributing
-Contributor Covenant VScode co-pilot, https://opensource.org/licenses/, Google
+  ## Description
+  Ask a series of questions to produce a uniform readme file for the users projects.
 
-Challenge
-Getting the index and markdown to work together. Getting the licensing badges to show up correctly.
 
-GitHub
-jweaver74
+  ## Installation
+  Clone the repo to the users repo. Open the terminal within the Develop folder and run the commend node index.js.
 
-Email
-jamaweaver@yahoo.com
 
-Questions
-If you have any questions, please contact me at Jason Weaver or visit my GitHub page at Jweaver74
+  ## Tests
+  Run node index.js and test the functions.
 
+
+  ## Contributing
+  [Contributor Covenant](https://www.contributor-covenant.org/)
+  VScode co-pilot, https://opensource.org/licenses/, Google
+
+
+  ## Challenge
+  Getting the index and markdown to work together. Getting the licensing badges to show up correctly.
+
+
+  ## GitHub
+  jweaver74
+
+
+  ## Email
+  jamaweaver@yahoo.com
+
+
+  ## Questions
+  If you have any questions, please contact me at [Jason Weaver](Jamaweaver@yahoo.com) or visit my GitHub page at [Jweaver74](https://github.com/Jweaver74)
