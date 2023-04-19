@@ -4,13 +4,13 @@ const licenseArr = ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"];
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license===licenseArr[0]) {
-    return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
   }else if (license===licenseArr[1]) {
-    return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";  
+    return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";  
   }else if (license===licenseArr[2]) {
-    return "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+    return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
   }else if (license===licenseArr[3]) {
-    return "![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)";
+    return "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
   }else if (license===licenseArr[4]) {
     return "";
   }
@@ -88,6 +88,9 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
+  ## Live Link
+  ${data.livelink}
 
 
   ## Description
