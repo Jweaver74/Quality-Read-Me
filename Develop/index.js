@@ -17,7 +17,11 @@ function userInput() {
     },
     {name: "usage",
     type: "input",
-    message:"Do you have a link to your deployed site? If so please provide it here.",
+    message:"What is the usage of your project?",
+    },
+    {name: "livelink",
+    type: "input",
+    message:"What is the live link of your project?",
     },
     {name: "description",
     type: "input",
@@ -55,9 +59,9 @@ function userInput() {
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.appendFile(`${fileName}.md`, data,
-    (err => err ? console.error(err): console.log(`${fileName}.md has been generated.`))
+function writeToFile(README, data) {
+    fs.appendFile("README.md", data,
+    (err => err ? console.error(err): console.log("README.md has been generated."))
     )
 }
 
