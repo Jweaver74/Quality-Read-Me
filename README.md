@@ -1,6 +1,7 @@
 # Quality Read Me
   ## Badges
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
   ## Table of Contents
   *[license](#license)
@@ -55,7 +56,9 @@
 
   ## Contributing
   [Contributor Covenant](https://www.contributor-covenant.org/)
-  VScode co-pilot, https://opensource.org/licenses/, Google
+  https://opensource.org/licenses/, Google
+  https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file
+  https://nodejs.org/en/docs
 
 
   ## Challenge
