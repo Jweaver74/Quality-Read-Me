@@ -43,11 +43,14 @@
 
 
   ## Description
-  Ask a series of questions to produce a uniform readme file for the users projects.
+  After running the command node index.js within the terminal, the user will be 
+  ask a series of questions to 
+  produce a uniform readme file for the users projects.
 
 
   ## Installation
-  Clone the repo to the users repo. Open the terminal within the Develop folder and run the commend node index.js.
+  Clone the repo to the users repo. Open the terminal within the Develop
+   folder and run the commend node index.js.
 
 
   ## Tests
@@ -62,7 +65,8 @@
 
 
   ## Challenge
-  Getting the index and markdown to work together. Getting the licensing badges to show up correctly.
+  Getting the index and markdown to work together. Getting the licensing
+  badges to show up correctly.
 
 
   ## GitHub
