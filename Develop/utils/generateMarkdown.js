@@ -90,7 +90,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## Live Link
+  ## LiveLink
   ${data.livelink}
 
 
